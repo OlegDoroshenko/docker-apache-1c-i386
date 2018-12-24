@@ -56,7 +56,7 @@ RUN tar -xzf /dist/deb.tar.gz -C /dist \
   && rm /dist/*.deb \
   && chown --recursive usr1cv8:grp1cv8 /var/log/1C /home/usr1cv8
   
-RUN cp -r /opt/1C/v8.3/x86_copy /opt/1C/v8.3/x86_64
+RUN mv /opt/1C/v8.3/x86_copy /opt/1C/v8.3/x86_64
 
 # Копируем внутрь контейнера заранее подготовленный конфиг от Apache
 COPY httpd.conf /usr/local/apache2/conf/httpd.conf

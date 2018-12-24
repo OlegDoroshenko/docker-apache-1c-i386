@@ -1,3 +1,5 @@
+Этот репозиторий создан на основе репозитория https://github.com/pqr/docker-apache-1c-example/
+
 # Запуск Apache 2.4 с модулем 1С внутри Docker контейнера
 
 1. Установите Docker (https://docs.docker.com/install/) и docker-compose (https://docs.docker.com/compose/install/)
@@ -39,4 +41,4 @@
 
 5. Пересобрать образ и запустить новый контейнер: `docker-compose up -d --build`
 
-Этот репозиторий является примером к статье с подробными пошаговыми инструкциями: https://infostart.ru/public/810851/
+Этот репозиторий создан на основе статьи Пётра Мязина с подробными пошаговыми инструкциями: https://infostart.ru/public/810851/
